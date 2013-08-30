@@ -1,0 +1,5 @@
+com/yoc/gaming/publisher_webservice/resources/PublisherService.class
+com/yoc/gaming/publisher_webservice/daos/PublisherDAOImpl.class
+com/yoc/gaming/publisher_webservice/resources/PublisherServiceImpl.class
+com/yoc/gaming/publisher_webservice/entities/Publisher.class
+com/yoc/gaming/publisher_webservice/daos/PublisherDAO.class

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features>
+ <feature  name='camel-bindy'  version='2.10.6'   > 
+    <bundle>mvn:org.slf4j/slf4j-api/1.6.6</bundle>
+    <bundle>mvn:log4j/log4j/1.2.16</bundle>
+    <bundle>mvn:org.slf4j/slf4j-log4j12/1.4.3</bundle>
+    <bundle>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.stax-api-1.0/2.2.0</bundle>
+    <bundle>mvn:org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.0.2</bundle>
+    <bundle>mvn:org.apache.camel/camel-core/2.10.6</bundle>
+    <bundle>mvn:org.apache.camel/camel-bindy/2.10.6/bundle</bundle>
+ </feature>
+ <feature  name='camel-blueprint'  version='2.10.6'   > 
+    <bundle>mvn:org.slf4j/slf4j-api/1.6.6</bundle>
+    <bundle>mvn:org.apache.aries.blueprint/org.apache.aries.blueprint/0.3</bundle>
+    <bundle>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.stax-api-1.0/2.2.0</bundle>
+    <bundle>mvn:org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.0.2</bundle>
+    <bundle>mvn:org.apache.camel/camel-core/2.10.6</bundle>
+    <bundle>mvn:log4j/log4j/1.2.16</bundle>
+    <bundle>mvn:org.slf4j/slf4j-log4j12/1.4.3</bundle>
+    <bundle>mvn:org.apache.aries/org.apache.aries.util/0.3</bundle>
+    <bundle>mvn:org.apache.aries.proxy/org.apache.aries.proxy.api/0.3</bundle>
+    <bundle>mvn:org.apache.camel/camel-blueprint/2.10.6/bundle</bundle>
+ </feature>
+ <feature  name='camel-spring'  version='2.10.6'   > 
+    <bundle>mvn:org.springframework/spring-core/3.0.7.RELEASE</bundle>
+    <bundle>mvn:org.springframework/spring-context/3.0.7.RELEASE</bundle>
+    <bundle>mvn:org.springframework/spring-beans/3.0.7.RELEASE</bundle>
+    <bundle>mvn:org.springframework/spring-aop/3.0.7.RELEASE</bundle>
+    <bundle>mvn:org.springframework/spring-tx/3.0.7.RELEASE</bundle>
+    <bundle>mvn:org.springframework/spring-expression/3.0.7.RELEASE</bundle>
+    <bundle>mvn:org.jruby/jruby-complete/1.6.5</bundle>
+    <bundle>mvn:org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.0</bundle>
+    <bundle>mvn:org.springframework/spring-asm/3.0.7.RELEASE</bundle>
+    <bundle>mvn:log4j/log4j/1.2.16</bundle>
+    <bundle>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.stax-api-1.0/2.2.0</bundle>
+    <bundle>mvn:org.mortbay.jetty/servlet-api-2.5/6.1.14</bundle>
+    <bundle>mvn:org.mortbay.jetty/jsp-api-2.1/6.1.14</bundle>
+    <bundle>mvn:org.slf4j/slf4j-api/1.6.6</bundle>
+    <bundle>mvn:org.slf4j/slf4j-log4j12/1.4.3</bundle>
+    <bundle>mvn:org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.0.2</bundle>
+    <bundle>mvn:org.apache.camel/camel-core/2.10.6</bundle>
+    <bundle>mvn:org.apache.camel/camel-spring/2.10.6/bundle</bundle>
+ </feature>
+ <feature  name='org.apache.servicemix.specs.jaxb-api-2.1'  version='2.2.0'   > 
+    <bundle>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.stax-api-1.0/2.2.0</bundle>
+    <bundle>mvn:org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.0.2</bundle>
+    <bundle>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.jaxb-api-2.1/2.2.0/bundle</bundle>
+ </feature>
+ <feature  name='org.apache.servicemix.bundles.hadoop-core'  version='1.2.0_1'   > 
+    <bundle>mvn:org.slf4j/slf4j-api/1.6.6</bundle>
+    <bundle>mvn:org.mortbay.jetty/jetty-util/6.1.26</bundle>
+    <bundle>mvn:org.mortbay.jetty/jsp-2.1/6.1.14</bundle>
+    <bundle>mvn:org.mortbay.jetty/servlet-api-2.5/6.1.14</bundle>
+    <bundle>mvn:org.mortbay.jetty/jsp-api-2.1/6.1.14</bundle>
+    <bundle>mvn:org.mortbay.jetty/jetty/6.1.26</bundle>
+    <bundle>mvn:org.codehaus.jackson/jackson-core-asl/1.7.1</bundle>
+    <bundle>mvn:org.codehaus.jackson/jackson-mapper-asl/1.8.8</bundle>
+    <bundle>mvn:log4j/log4j/1.2.16</bundle>
+    <bundle>mvn:org.slf4j/slf4j-log4j12/1.4.3</bundle>
+    <bundle>mvn:org.eclipse.jdt/core/3.1.1</bundle>
+    <bundle>mvn:org.apache.commons/commons-math/2.1</bundle>
+    <bundle>mvn:commons-lang/commons-lang/2.4</bundle>
+    <bundle>mvn:commons-io/commons-io/2.1</bundle>
+    <bundle>mvn:commons-collections/commons-collections/3.2.1</bundle>
+    <bundle>mvn:commons-codec/commons-codec/1.4</bundle>
+    <bundle>mvn:commons-configuration/commons-configuration/1.6</bundle>
+    <bundle>mvn:commons-cli/commons-cli/1.2</bundle>
+    <bundle>mvn:com.sun.jersey/jersey-core/1.8</bundle>
+    <bundle>mvn:com.sun.jersey/jersey-server/1.8</bundle>
+    <feature version='2.2.0'>org.apache.servicemix.specs.jaxb-api-2.1</feature>
+    <bundle>mvn:org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.0</bundle>
+    <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.hadoop-core/1.2.0_1/bundle</bundle>
+ </feature>
+ <feature  name='org.apache.servicemix.specs.java-persistence-api-2.0'  version='2.2.0'   > 
+    <bundle>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.java-persistence-api-2.0/2.2.0/bundle</bundle>
+ </feature>
+ <feature  name='org.apache.servicemix.specs.java-persistence-api-1.1.1'  version='2.2.0'   > 
+    <bundle>mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.java-persistence-api-1.1.1/2.2.0/bundle</bundle>
+ </feature>
+ <feature  name='datanucleus-api-jdo'  version='3.2.4'   > 
+    <bundle>mvn:org.datanucleus/datanucleus-api-jdo/3.2.4</bundle>
+ </feature>
+ <feature  name='jdo-api'  version='3.0.1'   > 
+    <feature version='2.2.0'>org.apache.servicemix.specs.java-persistence-api-1.1.1</feature>
+    <bundle>mvn:javax.jdo/jdo-api/3.0.1</bundle>
+ </feature>
+ <feature  name='hadoop-core'  version='1.2.0'   > 
+    <bundle>mvn:org.apache.hadoop/hadoop-core/1.2.0</bundle>
+ </feature>
+</features>
